@@ -1,0 +1,40 @@
+{
+  "dataset_name": "batch-test-demo_synthetic_dataset",
+  "batch_id": "BATCH-TEST-DEMO",
+  "is_demo": true,
+  "is_synthetic": true,
+  "label": "DEMO/SYNTHETIC",
+  "disclaimer": "DEMO/SYNTHETIC DATASET: Generated for algorithm demonstration and QA testing. Not official Indian Space Research Organisation (ISRO) flight or screening data.",
+  "random_seed": 42,
+  "total_components": 50,
+  "total_rows": 250,
+  "parameters": [
+    "iddq",
+    "leakage_current",
+    "propagation_delay",
+    "standby_current",
+    "voltage"
+  ],
+  "component_types": [
+    "Radiation-Hardened FPGA",
+    "Precision Operational Amplifier",
+    "High-Speed ADC",
+    "Linear Voltage Regulator",
+    "Digital Signal Processor"
+  ],
+  "defect_distribution": {
+    "HEALTHY": 35,
+    "STATIC_LIMIT_VIOLATION": 1,
+    "MILD_DRIFT": 2,
+    "LATE_DRIFT": 2,
+    "EARLY_DRIFT": 2,
+    "POPULATION_OUTLIER": 4,
+    "STRONG_DRIFT": 2,
+    "ACCELERATING_DRIFT": 2
+  },
+  "ground_truth_distribution": {
+    "NORMAL": 35,
+    "ANOMALOUS": 15
+  },
+  "generated_at": "2026-09-28T11:21:50.202501+00:00"
+}

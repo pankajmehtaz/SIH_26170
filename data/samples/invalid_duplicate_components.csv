@@ -1,0 +1,4 @@
+component_id,batch_id,parameter_name,unit,spec_max,value_0h,value_24h,value_96h,value_168h
+COMP-001,BATCH-ERR-001,iddq,µA,50.0,12.1,12.3,12.7,12.9
+COMP-001,BATCH-ERR-001,iddq,µA,50.0,12.2,12.4,12.8,13.0
+COMP-002,BATCH-ERR-001,iddq,µA,50.0,11.5,11.8,12.1,12.3

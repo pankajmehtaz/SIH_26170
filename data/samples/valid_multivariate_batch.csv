@@ -1,0 +1,10 @@
+component_id,batch_id,component_type,parameter_name,unit,spec_min,spec_max,value_0h,value_24h,value_96h,value_168h,measurement_temperature,measurement_voltage
+COMP-1001,BATCH-TEST-001,Radiation-Hardened FPGA,iddq,µA,0.0,50.0,12.1,12.3,12.7,12.9,125.0,3.3
+COMP-1001,BATCH-TEST-001,Radiation-Hardened FPGA,leakage_current,µA,0.0,100.0,21.5,21.8,22.4,22.8,125.0,3.3
+COMP-1001,BATCH-TEST-001,Radiation-Hardened FPGA,propagation_delay,ns,1.0,25.0,8.1,8.2,8.4,8.5,125.0,3.3
+COMP-1002,BATCH-TEST-001,Precision Operational Amplifier,iddq,µA,0.0,50.0,11.8,12.0,12.4,12.6,125.0,3.3
+COMP-1002,BATCH-TEST-001,Precision Operational Amplifier,leakage_current,µA,0.0,100.0,22.1,22.5,23.0,23.4,125.0,3.3
+COMP-1002,BATCH-TEST-001,Precision Operational Amplifier,propagation_delay,ns,1.0,25.0,8.0,8.1,8.3,8.4,125.0,3.3
+COMP-1003,BATCH-TEST-001,High-Speed ADC,iddq,µA,0.0,50.0,44.5,44.8,45.2,45.6,125.0,3.3
+COMP-1003,BATCH-TEST-001,High-Speed ADC,leakage_current,µA,0.0,100.0,23.0,23.4,24.0,24.5,125.0,3.3
+COMP-1003,BATCH-TEST-001,High-Speed ADC,propagation_delay,ns,1.0,25.0,8.2,8.3,8.5,8.6,125.0,3.3
